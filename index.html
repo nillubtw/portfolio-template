@@ -4,31 +4,47 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal portfolio of selected work, skills, and projects.">
+  <meta name="theme-color" content="#f5f3ee">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="hero">
-    <h1 id="name"></h1>
-    <p id="tagline"></p>
-    <nav id="links"></nav>
+    <div>
+      <p class="eyebrow">Selected work · Portfolio Week 2026</p>
+      <h1 id="name"></h1>
+      <p class="hero-copy" id="tagline"></p>
+    </div>
+    <p class="hero-note">Independent practice<br>Ideas into useful things</p>
+    <nav id="links" aria-label="Personal links"></nav>
   </header>
-  <main>
-    <section>
-      <h2>About</h2>
-      <p id="bio"></p>
+  <main id="main-content">
+    <section aria-labelledby="about-heading">
+      <p class="section-index">01 / About</p>
+      <div class="section-content">
+        <h2 id="about-heading">A little context</h2>
+        <p id="bio"></p>
+      </div>
     </section>
-    <section>
-      <h2>Skills</h2>
-      <ul id="skills" class="chips"></ul>
+    <section aria-labelledby="skills-heading">
+      <p class="section-index">02 / Capabilities</p>
+      <div class="section-content">
+        <h2 id="skills-heading">Skills</h2>
+        <ul id="skills" class="chips"></ul>
+      </div>
     </section>
-    <section>
-      <h2>Projects</h2>
-      <div id="projects" class="grid"></div>
+    <section aria-labelledby="projects-heading">
+      <p class="section-index">03 / Selected work</p>
+      <div class="section-content">
+        <h2 id="projects-heading">Projects</h2>
+        <div id="projects" class="grid"></div>
+      </div>
     </section>
   </main>
-  <footer id="footer"></footer>
+  <footer id="footer" aria-label="Copyright"></footer>
   <script src="script.js"></script>
 </body>
 
