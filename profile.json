@@ -1,19 +1,44 @@
 {
-    "name": "Your Name",
-    "tagline": "Your one-line introduction",
-    "bio": "Write 2 or 3 sentences about yourself.",
-    "skills": [
-        "Git",
-        "HTML"
-    ],
-    "projects": [
-        {
-            "title": "My first project",
-            "desc": "What it does.",
-            "link": "https://github.com/yourname"
-        }
-    ],
-    "links": {
-        "github": "https://github.com/yourname"
+  "name": "Mohammed Nihal Reyasath",
+  "tagline": "Electrical and Computer Engineering student | Data Science",
+  "bio": "I’m an Electrical and Computer Engineering student at TKM College of Engineering and a BS student in Data Science and Applications at IIT Madras. I build IoT systems, Android applications, and Python-based tools, with a strong interest in cybersecurity and data-driven problem solving.",
+  "skills": [
+    "Python",
+    "C",
+    "SQL",
+    "Linux",
+    "IoT",
+    "Android Development",
+    "Kotlin",
+    "Arduino",
+    "ESP32",
+    "Firebase",
+    "Node.js",
+    "MySQL",
+    "Communication",
+    "Teamwork",
+    "Leadership",
+    "Problem-solving"
+  ],
+  "projects": [
+    {
+      "title": "Assistive Wearable Alert System",
+      "desc": "An IoT wearable for disabled and elderly users that detects hand gestures and sound patterns to trigger alerts. Includes an Android caretaker app with real-time alerts and acknowledgment synced through Firebase.",
+      "link": "https://github.com/nillubtw/CareTaker-App"
+    },
+    {
+      "title": "Emergency SOS System",
+      "desc": "A low-cost Arduino wearable that uses a pressure sensor and SIM800L GSM module to send SMS and voice-call alerts to preset contacts.",
+      "link": "https://github.com/nillubtw/TaserProject"
+    },
+    {
+      "title": "Flight Reservation System",
+      "desc": "A Python and MySQL airline management system for passenger registration, flight booking, food ordering, and baggage management, with input validation and tiered fares.",
+      "link": "https://github.com/nillubtw/flight-management-system"
     }
+  ],
+  "links": {
+    "GitHub": "https://github.com/nillubtw",
+    "LinkedIn": "https://linkedin.com/in/nihalreyasath"
+  }
 }
